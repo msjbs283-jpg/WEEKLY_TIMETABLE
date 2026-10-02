@@ -1,10 +1,10 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#102a43" />
-  <meta name="description" content="جدول المرحلة الثانية - تقنيات المختبرات الطبية" />
+<!DOCTYPE html>
+<!-- saved from url=(0404)https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-759c-820a-9bfe-ec5c12480e0d/raw?se=2026-10-02T15%3A40%3A19Z&sp=r&sv=2026-02-06&sr=b&scid=06a140dc-2883-4ddf-95f1-12e671b63112&skoid=40ce4b34-a373-4a62-b0bf-44befe221915&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T02%3A35%3A31Z&ske=2026-10-03T02%3A35%3A31Z&sks=b&skv=2026-02-06&sig=Y3105whrprHVB8havlVNOoud7/KZSbvdOwZWQTFNND8%3D -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102a43">
+  <meta name="description" content="جدول المرحلة الثانية - تقنيات المختبرات الطبية">
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
 :root{--ink:#3b2f63;--muted:#6b6580;--bg:#f7f4fb;--card:#fff;--line:#ddd7ea;--theory:#eee9ff;--theory-ink:#5b43a5;--practical:#e7f7f1;--practical-ink:#19805c;--shadow:0 8px 28px #3b2f6312}
@@ -188,9 +188,108 @@ input:focus,select:focus,textarea:focus{
 #groupView .hero-card{margin-bottom:18px}
 #groupView .group-grid{margin-top:0}
 @media(max-width:650px){.welcome-shell{min-height:calc(100vh - 180px);border-radius:25px}.welcome-inner{padding:40px 16px}.welcome-logo{width:78px;height:78px;border-radius:23px}.welcome-inner h2{font-size:36px}.welcome-inner p{font-size:13px}.start-btn{width:min(100%,290px);justify-content:space-between}}
+
+/* ===== COMPLETE REDESIGN v3 — EDITORIAL ACADEMIC ===== */
+:root{
+ --ink:#142238;--muted:#6d7787;--bg:#f4f1ea;--card:#fffdf9;--line:#e4ded3;
+ --navy:#101c2f;--navy2:#1b2d49;--gold:#c89b3c;--gold2:#e1bd68;
+ --teal:#087f73;--teal-soft:#e7f5f2;--theory-soft:#fff6df;--theory-ink:#9a701d;
+ --shadow:0 18px 50px rgba(22,31,45,.09);
+}
+*{box-sizing:border-box}
+body{margin:0;padding-bottom:82px;background:linear-gradient(180deg,#f8f5ef 0,#f1eee7 100%);color:var(--ink);font-family:Cairo,system-ui,sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;background-image:linear-gradient(rgba(16,28,47,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(16,28,47,.025) 1px,transparent 1px);background-size:32px 32px;z-index:-1}
+.topbar{position:relative;overflow:hidden;padding:18px max(18px,calc((100% - 1160px)/2));min-height:92px;background:var(--navy);color:#fff;box-shadow:0 12px 36px rgba(16,28,47,.2)}
+.topbar:before{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(225,189,104,.18);border-radius:50%;left:-150px;top:-270px}.topbar:after{content:"";position:absolute;width:190px;height:190px;background:radial-gradient(circle,rgba(200,155,60,.22),transparent 68%);right:8%;top:-90px}
+.brand-wrap,.top-actions{position:relative;z-index:2}.brand-wrap{gap:14px}.brand-mark{width:52px;height:52px;border-radius:15px;background:linear-gradient(145deg,#f7e6b5,#c89b3c);color:#17243a;box-shadow:0 9px 25px #0004;font-weight:1000}.eyebrow{font-size:10px;letter-spacing:1.2px;color:#d7dde6}.topbar h1{font-size:25px;margin:2px 0;font-weight:900;letter-spacing:-.4px}.topbar p{font-size:11px;color:#b8c1ce}.verified-badge{border:1px solid rgba(225,189,104,.35);background:rgba(225,189,104,.10);color:#f5d98f;padding:8px 12px;font-size:10px}
+.container{width:min(1160px,calc(100% - 26px));margin:24px auto}.view{display:none}.view.active{display:block}
+/* Landing */
+.welcome-shell{min-height:calc(100vh - 190px);border-radius:30px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0d182a 0%,#182b45 56%,#24415d 100%);box-shadow:0 30px 80px rgba(16,28,47,.2);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+.welcome-shell:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 25%,rgba(200,155,60,.08),transparent 65%)}.welcome-inner{width:min(720px,92%);padding:46px 18px;position:relative;z-index:2}.welcome-logo{width:98px;height:98px;border-radius:30px;margin:0 auto 22px;display:grid;place-items:center;background:linear-gradient(145deg,#f3dfab,#b9872d);color:#15233a;box-shadow:0 20px 50px #0004}.welcome-logo span{font-size:23px;font-weight:1000}.welcome-kicker{font-size:10px;letter-spacing:2.5px;color:#d8dde5}.welcome-inner h2{font-size:clamp(35px,6vw,62px);margin:13px 0 10px;line-height:1.08;font-weight:1000}.welcome-inner p{color:#bdc7d4;max-width:590px;margin:0 auto 28px;line-height:2;font-size:14px}.start-btn{border:0;border-radius:16px;padding:12px 14px 12px 23px;background:#fffaf0;color:#17243a;font-family:inherit;font-weight:900;display:inline-flex;align-items:center;gap:20px;box-shadow:0 18px 38px #0005;cursor:pointer}.start-btn b{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#c89b3c,#e1bd68);color:#142238}.welcome-note{margin-top:24px;color:#9ca9ba;font-size:10px}.status-dot{background:#e1bd68}.welcome-orb{position:absolute;border-radius:50%;border:1px solid rgba(225,189,104,.18)}.orb-one{width:410px;height:410px;right:-170px;top:-210px}.orb-two{width:300px;height:300px;left:-150px;bottom:-180px}
+/* Dashboard */
+.hero-card{border:1px solid var(--line);background:rgba(255,253,249,.92);box-shadow:var(--shadow);border-radius:25px}.main-hero{padding:30px;min-height:220px;position:relative;overflow:hidden}.main-hero:after{content:"";position:absolute;right:-60px;bottom:-100px;width:280px;height:280px;border-radius:50%;border:35px solid rgba(200,155,60,.10)}.hero-glow{display:none}.hero-content{position:relative;z-index:1}.hero-pill,.pill{background:#f8edd2;color:#8c671f;border:1px solid #ead7a8}.main-hero h2{font-size:31px;margin:14px 0 6px;color:var(--navy)}.main-hero p{color:var(--muted);max-width:720px;margin:0}.source-note{color:#7d8693;font-size:11px}
+.group-grid{gap:18px;margin-top:18px}.group-card{position:relative;min-height:190px;border:1px solid #ddd6ca;border-radius:25px;background:var(--card);box-shadow:var(--shadow);padding:26px;text-align:right;overflow:hidden;color:var(--ink);transition:.22s;cursor:pointer}.group-card:before{content:"";position:absolute;width:180px;height:180px;border-radius:50%;right:-55px;bottom:-90px;background:#f6ead0}.group-card:nth-child(2):before{background:#e3f2ef}.group-card:hover{transform:translateY(-5px);box-shadow:0 25px 55px rgba(16,28,47,.14);border-color:#d0b574}.group-card span{position:relative;z-index:1;font-size:12px;font-weight:800;color:var(--muted)}.group-card strong{position:relative;z-index:1;display:block;font-size:52px;line-height:1;margin:18px 0 13px;color:var(--navy);letter-spacing:-2px}.group-card small{position:relative;z-index:1;color:#87909d;font-weight:700}.group-card:nth-child(2) strong{color:var(--teal)}
+.subgroup-grid{gap:14px}.subgroup-card{border:1px solid #ded8ce;border-radius:20px;background:var(--card);box-shadow:0 10px 30px rgba(16,28,47,.07);padding:25px 12px;color:var(--navy);font-size:25px;font-weight:900;transition:.2s}.subgroup-card:hover{transform:translateY(-4px);border-color:#d0b574;box-shadow:0 18px 40px rgba(16,28,47,.12)}.subgroup-card:nth-child(odd){border-top:4px solid var(--gold)}.subgroup-card:nth-child(even){border-top:4px solid var(--teal)}
+.back-btn{border:0;background:transparent;color:#6c7480;font-family:inherit;font-weight:800;cursor:pointer;margin-bottom:13px}.selected-summary{padding:18px 20px;border:1px solid var(--line);background:var(--navy);color:#fff;border-radius:22px;box-shadow:var(--shadow)}.selected-summary h2{font-size:21px;color:#fff}.selected-summary .pill{background:rgba(225,189,104,.14);border-color:rgba(225,189,104,.28);color:#edcc7d}.small-btn{background:#fff8e9;color:#7f5c17;border:1px solid #ead7a8;border-radius:12px;padding:9px 13px;font-family:inherit;font-weight:800}
+.days{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:15px 0 11px;padding:7px;background:#e9e5dd;border:1px solid #ded8ce;border-radius:17px}.day-btn{min-width:0;border:0;background:transparent;border-radius:12px;padding:12px 7px;color:#68717e;font-family:inherit;font-weight:900;cursor:pointer;transition:.18s}.day-btn:hover{background:#fffaf0;color:var(--navy)}.day-btn.active{background:var(--navy);color:#fff;box-shadow:0 8px 18px rgba(16,28,47,.18)}
+.schedule-legend{display:flex;justify-content:flex-start;gap:18px;padding:9px 12px;margin-bottom:12px;color:#707a87;font-size:11px;font-weight:800}.schedule-legend span{display:flex;align-items:center;gap:6px}.dot{width:9px;height:9px;border-radius:50%}.theory-dot{background:var(--gold)}.practical-dot{background:var(--teal)}
+.schedule{gap:12px}.lecture{display:grid;grid-template-columns:118px 1fr;gap:11px;align-items:stretch;position:relative}.time-box{min-height:105px;border:1px solid #ded8ce;border-radius:18px;background:#ebe7df;color:#4c5868;display:flex;flex-direction:column;gap:5px;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(16,28,47,.05);font-size:12px}.time-box:before{content:"TIME";font-size:8px;letter-spacing:1.5px;color:#a08754}.time-box small{font-size:9px;padding:3px 8px;border-radius:99px;background:#fffaf0;color:#8c671f;font-weight:900}.lecture-card{position:relative;min-height:105px;border:1px solid #ddd8cf;border-right:5px solid;border-radius:18px;background:var(--card);padding:15px 17px;box-shadow:0 8px 25px rgba(16,28,47,.06);transition:.2s}.lecture-card:hover{transform:translateX(-3px);box-shadow:0 16px 35px rgba(16,28,47,.11)}.lecture-card.theory{border-right-color:var(--gold);background:linear-gradient(135deg,#fffdf8,#fff8e7)}.lecture-card.practical{border-right-color:var(--teal);background:linear-gradient(135deg,#fbfffe,#eaf7f4)}.lecture-title{font-size:16px;font-weight:900;color:var(--navy)}.type{border:1px solid #e7dfcf;background:#fff;color:#8c671f;border-radius:99px;padding:4px 9px;font-size:10px;font-weight:900}.practical .type{color:var(--teal)}.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}.meta span{border:1px solid #e8e2d9;background:rgba(255,255,255,.72);border-radius:8px;padding:4px 8px;color:#647080;font-size:10px}.empty{background:var(--card);border:1px dashed #cfc7ba;border-radius:18px;padding:28px;text-align:center;color:#7a8390}
+.site-footer{padding:28px 10px 86px;text-align:center;color:#7b8490;font-size:11px}.site-footer strong{color:#8c671f}.footer-line{height:1px;width:min(420px,75%);margin:0 auto 14px;background:linear-gradient(90deg,transparent,#cfc6b8,transparent)}.bottom-nav{background:rgba(255,253,249,.92);backdrop-filter:blur(14px);border-top:1px solid #ddd7cd;box-shadow:0 -10px 30px rgba(16,28,47,.07)}.bottom-nav button{color:var(--navy);font-family:inherit;font-weight:900;padding:9px 18px;border-radius:12px}.bottom-nav button:hover{background:#f6ead0}
+/* dialogs/forms */
+.dialog-card{border:1px solid var(--line);border-radius:22px;background:#fffdf9;padding:21px;box-shadow:0 25px 70px #101c2f33}.dialog-card h3{color:var(--navy)}.primary-btn{background:var(--navy);color:#fff;border:0;border-radius:12px;padding:12px;font-family:inherit;font-weight:900}.secondary-btn{background:#f8edd2;color:#795718;border:1px solid #ead7a8;border-radius:12px;padding:12px;font-family:inherit;font-weight:900}.close-btn{color:#6e7784}.muted{color:#7a8390;font-size:11px}
+@media(max-width:700px){.topbar{padding:15px 13px}.topbar h1{font-size:20px}.brand-mark{width:46px;height:46px}.verified-badge{display:none}.container{width:calc(100% - 14px);margin:14px auto}.welcome-shell{min-height:calc(100vh - 160px);border-radius:24px}.welcome-inner h2{font-size:38px}.welcome-inner p{font-size:12px}.main-hero{padding:22px 18px}.main-hero h2{font-size:24px}.group-card{min-height:155px;padding:20px}.group-card strong{font-size:43px}.subgroup-grid{grid-template-columns:repeat(2,1fr)}.days{grid-template-columns:repeat(5,minmax(68px,1fr));overflow-x:auto}.day-btn{font-size:11px}.lecture{grid-template-columns:75px 1fr;gap:7px}.time-box{min-height:112px;font-size:10px}.lecture-card{min-height:112px;padding:12px 11px}.lecture-title{font-size:12px}.meta span{font-size:9px}.selected-summary{padding:14px}.selected-summary h2{font-size:18px}}
+@media(max-width:430px){.topbar p{display:none}.group-grid{grid-template-columns:1fr}.group-card{min-height:140px}.welcome-logo{width:78px;height:78px}.welcome-inner h2{font-size:34px}.lecture{grid-template-columns:68px 1fr}.time-box small{font-size:8px;padding:3px 5px}.type{font-size:9px}}
 </style>
-  <title>جدول المرحلة الثانية</title>
-</head>
+  <title>جدول المرحلة الثانية | تقنيات المختبرات الطبية</title>
+<style>
+:root{--ink:#24123f;--accent:#7c3aed;--accent2:#a855f7;--bg:#faf9ff;--card:#fff;--line:#e9e2f5;--muted:#766b88;--shadow:0 18px 50px rgba(78,38,120,.09)}
+body{background:radial-gradient(circle at 10% 0%,#f0e7ff 0,transparent 30%),var(--bg);color:var(--ink)}.topbar{background:linear-gradient(135deg,#24123f,#5b21b6 55%,#8b5cf6);box-shadow:0 10px 35px rgba(70,30,120,.18)}.brand-mark{background:linear-gradient(145deg,#fff,#ede9fe);color:#6d28d9}.container{width:min(1120px,calc(100% - 24px));margin:24px auto}.hero-card,.selected-summary{border-color:#eee7f7;background:#ffffffeb;box-shadow:var(--shadow);backdrop-filter:blur(12px)}.welcome-card{min-height:calc(100vh - 190px);display:grid;place-items:center;text-align:center;overflow:hidden;position:relative;background:linear-gradient(145deg,#fff,#f6f0ff)}.welcome-card:before,.welcome-card:after{content:'';position:absolute;border-radius:50%;pointer-events:none}.welcome-card:before{width:560px;height:560px;background:radial-gradient(circle,#c084fc35,transparent 65%);top:-280px;left:-180px}.welcome-card:after{width:420px;height:420px;background:radial-gradient(circle,#7c3aed20,transparent 65%);bottom:-240px;right:-150px}.welcome-inner{position:relative;z-index:1;max-width:760px;padding:34px 20px}.welcome-logo{width:92px;height:92px;margin:0 auto 20px;border-radius:28px;background:linear-gradient(145deg,#7c3aed,#a855f7);box-shadow:0 20px 45px #7c3aed35}.welcome-kicker{color:#8b5cf6;font-weight:900}.welcome-inner h2{font-size:clamp(36px,7vw,62px);line-height:1.08;margin:16px 0 12px;font-weight:900}.welcome-inner p{max-width:620px;margin:0 auto;color:#6f6680}.start-btn{margin-top:25px;background:linear-gradient(135deg,#7c3aed,#a855f7);box-shadow:0 15px 35px #7c3aed38}.start-btn:hover{transform:translateY(-3px);box-shadow:0 20px 45px #7c3aed45}.hero-pill,.pill{background:#f1e9ff;color:#6d28d9;border-color:#e7d8ff}.main-hero{padding:30px}.group-grid{gap:18px}.group-card{min-height:175px;padding:26px;border-color:#e9e0f7;background:linear-gradient(145deg,#fff,#fbf8ff);box-shadow:0 14px 40px rgba(80,35,125,.08);border-radius:24px}.group-card:before{background:#f1e9ff}.group-card:nth-child(2):before{background:#f7edff}.group-card:hover{border-color:#c4a7f5;box-shadow:0 20px 48px rgba(80,35,125,.13)}.group-card span{color:#8b5cf6}.group-card strong{color:#3b1b66}.subgroup-card{border-color:#e9e0f7;background:linear-gradient(145deg,#fff,#fbf8ff);box-shadow:0 10px 28px rgba(80,35,125,.07)}.subgroup-card:nth-child(odd){border-top-color:#7c3aed}.subgroup-card:nth-child(even){border-top-color:#a855f7}.day-btn.active{background:linear-gradient(135deg,#6d28d9,#a855f7);box-shadow:0 10px 24px #7c3aed30}.day-btn:hover{border-color:#c4a7f5}.schedule-legend{border-color:#eee5f8;background:#fff;color:#756a82}.theory-dot{background:#7c3aed}.practical-dot{background:#a855f7}.time-box{background:linear-gradient(180deg,#fff,#f5effd);border-color:#ece4f5}.time-box small{display:block;color:#9a8da7;font-size:9px;margin-top:3px}.lecture-card{border-color:#ebe4f3;box-shadow:0 9px 28px rgba(70,30,110,.06)}.lecture-card.theory{border-right-color:#7c3aed;background:linear-gradient(135deg,#faf7ff,#f2eaff)}.lecture-card.practical{border-right-color:#a855f7;background:linear-gradient(135deg,#fffaff,#f8efff)}.lecture-title{color:#2f174e}.lecture-en{font-size:10px;color:#8b7d99;margin-top:2px}.meta span{background:#ffffffb8;border-color:#eee5f5;color:#62566d}.bottom-nav{background:#ffffffef;border-top-color:#eee6f7;backdrop-filter:blur(16px)}.bottom-nav button,.back-btn{color:#6d28d9}.small-btn,.secondary-btn{background:#f2eafe;color:#6d28d9}.primary-btn{background:linear-gradient(135deg,#6d28d9,#a855f7)}
+@media(max-width:650px){.welcome-card{min-height:calc(100vh - 150px);border-radius:20px}.welcome-inner h2{font-size:36px}.welcome-logo{width:76px;height:76px;border-radius:23px}.main-hero{padding:22px 18px}.group-card{min-height:145px;padding:21px 17px}.lecture{grid-template-columns:78px 1fr}.lecture-title{font-size:13px}.lecture-en{font-size:9px}.meta span{font-size:9px}}
+
+/* ===== FINAL PROFESSIONAL POLISH ===== */
+:root{
+  --accent:#0f766e;--accent2:#14b8a6;--ink:#102a43;--muted:#64748b;
+  --bg:#f5f9fa;--line:#dce8e8;--shadow:0 20px 60px rgba(16,42,67,.10);
+}
+body{
+  background:
+    radial-gradient(circle at 5% 0%,#dff8f3 0,transparent 28%),
+    radial-gradient(circle at 95% 8%,#e7eefb 0,transparent 30%),var(--bg);
+}
+.topbar{
+  background:linear-gradient(135deg,#082f49 0%,#0f766e 55%,#14b8a6 100%);
+  box-shadow:0 14px 40px rgba(8,47,73,.20);
+}
+.brand-mark{color:#0f766e;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.container{max-width:1140px}
+.welcome-shell{
+  background:linear-gradient(135deg,#062c43 0%,#0f766e 58%,#14b8a6 100%);
+  box-shadow:0 30px 85px rgba(8,47,73,.22);
+}
+.welcome-logo{
+  background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.28);
+}
+.start-btn{color:#075e57}
+.start-btn b{background:linear-gradient(135deg,#0f766e,#14b8a6)}
+.welcome-kicker{letter-spacing:2.5px}
+.main-hero{border-top:4px solid #14b8a6}
+.hero-pill,.pill{background:#e6f7f4;color:#0f766e;border-color:#c7ebe5}
+.hero-stats strong{color:#0f766e}
+.group-card{border-color:#dbe9e8}
+.group-card:hover{border-color:#8ad7cc;box-shadow:0 22px 55px rgba(15,118,110,.14)}
+.subgroup-card:nth-child(odd){border-top-color:#0f766e}
+.subgroup-card:nth-child(even){border-top-color:#14b8a6}
+.day-btn.active{
+  background:linear-gradient(135deg,#075e57,#0f766e);
+  box-shadow:0 10px 25px rgba(15,118,110,.25);
+}
+.day-btn:hover{border-color:#80cfc5}
+.schedule-legend{background:#ffffff;border-color:#dce9e8}
+.theory-dot{background:#0f766e}.practical-dot{background:#14b8a6}
+.time-box:before{background:linear-gradient(#0f766e,#14b8a6)}
+.lecture-card.theory{
+  border-right-color:#0f766e;
+  background:linear-gradient(135deg,#f2fbfa,#e5f6f3);
+}
+.lecture-card.practical{
+  border-right-color:#14b8a6;
+  background:linear-gradient(135deg,#f7fffe,#e7faf7);
+}
+.type{color:#0f766e;border-color:#cfe9e5}
+.bottom-nav button:hover{background:#e8f7f4;color:#0f766e}
+.primary-btn{background:linear-gradient(135deg,#075e57,#0f766e)}
+.secondary-btn,.small-btn{background:#e7f6f3;color:#0f766e}
+.site-footer strong{color:#0f766e}
+@media(max-width:650px){
+  .topbar h1{font-size:19px}
+  .welcome-shell{min-height:calc(100vh - 160px)}
+  .welcome-inner h2{font-size:34px}
+  .hero-stats div{min-width:0}
+  .lecture{grid-template-columns:80px 1fr}
+}
+/* clearer Arabic type labels */
+.lecture-card .type{font-size:11px;font-weight:900}
+</style></head>
 <body>
   <header class="topbar">
     <div class="brand-wrap">
@@ -202,8 +301,7 @@ input:focus,select:focus,textarea:focus{
       </div>
     </div>
     <div class="top-actions">
-      <span class="verified-badge">✓ جدول معتمد من الملف</span>
-      <button id="installBtn" class="icon-btn install-btn" hidden aria-label="تثبيت التطبيق">⇩</button>
+      <span class="verified-badge">✓ مطابق للجدول المحدث</span>
     </div>
   </header>
 
@@ -229,14 +327,13 @@ input:focus,select:focus,textarea:focus{
           <span class="pill hero-pill">المرحلة الثانية • 2026–2027</span>
           <h2>اختيار المجموعة</h2>
           <p>اختر المجموعة المناسبة لتظهر لك المحاضرات النظرية والعملية مع تفاصيلها.</p>
-          <div class="hero-stats">
-            </div>
         </div>
       </div>
       <div class="group-grid">
-        <button class="group-card" data-group="A"><span>Group</span><strong>كروب A</strong><small>A1 إلى A4</small></button>
-        <button class="group-card" data-group="B"><span>Group</span><strong>كروب B</strong><small>B1 إلى B4</small></button>
+        <button class="group-card" data-group="A"><span>المجموعة الأولى</span><strong>A</strong><small>A1 · A2 · A3 · A4</small></button>
+        <button class="group-card" data-group="B"><span>المجموعة الثانية</span><strong>B</strong><small>B1 · B2 · B3 · B4</small></button>
       </div>
+      <p class="source-note">البيانات مطابقة للجدول الأسبوعي المرفق للعام الدراسي 2026–2027.</p>
     </section>
 
     <section id="subgroupView" class="view">
@@ -248,61 +345,17 @@ input:focus,select:focus,textarea:focus{
     </section>
 
     <section id="dayView" class="view">
-      <button class="back-btn" data-back="subgroupView">← رجوع للكروبات</button>
+      <button class="back-btn" data-back="subgroupView">← رجوع</button>
       <div class="selected-summary">
         <div><span class="pill" id="selectedSubgroupPill"></span><h2 id="selectedSubgroupTitle"></h2></div>
         <button id="settingsBtn" class="small-btn">⚙ التذكير</button>
       </div>
-      <div id="days" class="days" role="tablist" aria-label="أيام الأسبوع"></div>
+      <div id="days" class="days" role="tablist" aria-label="التنقل الأسبوعي"></div>
       <div class="schedule-legend"><span><i class="dot theory-dot"></i> نظري</span><span><i class="dot practical-dot"></i> عملي</span></div>
       <div id="schedule" class="schedule"></div>
     </section>
 
-    <section id="adminView" class="view">
-      <button class="back-btn" data-back="dayView">← رجوع</button>
-      <div class="hero-card"><span class="pill">إدارة</span><h2>نظام الإدارة</h2><p>هذه الواجهة محلية للتعديل على جهازك فقط. لا تعتبر حماية خادمية.</p></div>
-      <form id="loginForm" class="admin-form">
-        <label>اسم المستخدم<input id="adminUser" autocomplete="username" required /></label>
-        <label>الرمز<input id="adminPass" type="password" autocomplete="current-password" required /></label>
-        <button class="primary-btn">دخول</button>
-        <p id="loginMsg" class="form-msg"></p>
-      </form>
-      <div id="adminPanel" hidden>
-        <div class="admin-toolbar"><strong>لوحة التحكم الكاملة</strong><button id="resetDataBtn" class="danger-btn">إرجاع الإعدادات</button></div>
-        <p class="muted">من هنا تقدر تعدّل عنوان الموقع، الوصف، اسم المصمم، الألوان، الملاحظة، وكل بيانات الجدول. التعديلات تُحفظ على هذا الجهاز فقط.</p>
-
-        <div class="hero-card">
-          <h3>1) معلومات واجهة الموقع</h3>
-          <label>العنوان الرئيسي<input id="siteTitle" /></label>
-          <label>العنوان الصغير / الكلية<input id="siteEyebrow" /></label>
-          <label>الوصف تحت العنوان<input id="siteSubtitle" /></label>
-          <label>اسم المصمم<input id="siteDesigner" /></label>
-          <label>لون الموقع الرئيسي<input id="siteColor" type="color" value="#102a43" /></label>
-          <label>لون خلفية الموقع<input id="siteBg" type="color" value="#f4f7fb" /></label>
-          <button id="saveSiteBtn" class="primary-btn" type="button">حفظ معلومات الموقع</button>
-        </div>
-
-        <div class="hero-card">
-          <h3>2) تعديل الجدول بالكامل</h3>
-          <p class="muted">عدّل JSON بحذر. تقدر تغيّر الأيام، الأوقات، المواد، النظري والعملي، القاعات والمدرسين.</p>
-          <textarea id="siteDataEditor" rows="18" dir="ltr" spellcheck="false"></textarea>
-          <button id="saveDataBtn" class="primary-btn" type="button">حفظ بيانات الجدول وتطبيقها</button>
-        </div>
-
-        <div class="hero-card">
-          <h3>3) الملاحظة العامة</h3>
-          <label>ملاحظة<textarea id="adminNote" rows="4"></textarea></label>
-          <button id="saveNoteBtn" class="primary-btn" type="button">حفظ الملاحظة</button>
-        </div>
-
-        <div class="hero-card">
-          <h3>4) نسخ احتياطي</h3>
-          <button id="exportDataBtn" class="secondary-btn" type="button">نسخ كل الإعدادات</button>
-          <p class="muted">اضغط لنسخ بيانات الموقع والجدول، واحتفظ بها عندك.</p>
-        </div>
-        <p id="saveMsg" class="form-msg"></p>
-      </div>
-    </section>
+    
   </main>
 
   <footer class="site-footer">
@@ -313,14 +366,13 @@ input:focus,select:focus,textarea:focus{
 
   <nav class="bottom-nav">
     <button id="homeBtn">⌂ الرئيسية</button>
-    <button id="adminNavBtn">⚙ نظام الإدارة</button>
   </nav>
 
   <dialog id="reminderDialog">
     <form method="dialog" id="reminderForm" class="dialog-card">
       <button value="cancel" class="close-btn" aria-label="إغلاق">×</button>
       <h3>إعداد التذكير</h3>
-      <label class="switch-row"><span>تفعيل التذكير</span><input type="checkbox" id="reminderEnabled" /></label>
+      <label class="switch-row"><span>تفعيل التذكير</span><input type="checkbox" id="reminderEnabled"></label>
       <label>قبل المحاضرة بدقائق
         <select id="reminderMinutes"><option value="5">5 دقائق</option><option value="10">10 دقائق</option><option value="15">15 دقيقة</option><option value="30">30 دقيقة</option></select>
       </label>
@@ -369,7 +421,7 @@ window.TIMETABLE_DATA = {
       "en": "Histology-1",
       "ar": "علم الأنسجة 1",
       "lab": "M-003",
-      "practicalTeacher": "م.م. بلال عبد المجيد"
+      "practicalTeacher": "م.م. بالل عبد المجيد مخلف"
     },
     "biochemistry": {
       "en": "Biochemistry-1",
@@ -421,7 +473,7 @@ window.TIMETABLE_DATA = {
       "group": "A",
       "subject": "bacteriology",
       "hall": "M-114",
-      "teacher": "م.م. محمد هاشم محمد"
+      "teacher": "م.د. محمد جمال منصور"
     },
     {
       "day": "الأحد",
@@ -529,17 +581,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "10:00–11:30",
-        "subject": "parasitology",
+        "subject": "bacteriology",
         "group": "A4",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
       },
       {
         "time": "10:00–11:30",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "A1",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "10:00–11:30",
@@ -550,17 +602,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "11:30–1:00",
-        "subject": "parasitology",
+        "subject": "bacteriology",
         "group": "A2",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
       },
       {
         "time": "11:30–1:00",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "A4",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "11:30–1:00",
@@ -571,17 +623,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "1:00–2:30",
-        "subject": "parasitology",
+        "subject": "bacteriology",
         "group": "B3",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
       },
       {
         "time": "1:00–2:30",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "B1",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "1:00–2:30",
@@ -594,117 +646,117 @@ window.TIMETABLE_DATA = {
     "الأحد": [
       {
         "time": "8:30–10:00",
-        "subject": "parasitology",
+        "subject": "bacteriology",
         "group": "B1",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
+      },
+      {
+        "time": "8:30–10:00",
+        "subject": "histology",
+        "group": "B2",
+        "hall": "M-003",
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       },
       {
         "time": "8:30–10:00",
         "subject": "bacteriology",
-        "group": "B2",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
-      },
-      {
-        "time": "10:00–11:30",
-        "subject": "parasitology",
         "group": "A3",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
+      },
+      {
+        "time": "10:00–11:30",
+        "subject": "histology",
+        "group": "A2",
+        "hall": "M-003",
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       },
       {
         "time": "10:00–11:30",
         "subject": "bacteriology",
-        "group": "A2",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
-      },
-      {
-        "time": "11:30–1:00",
-        "subject": "parasitology",
         "group": "A1",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
+      },
+      {
+        "time": "10:00–11:30",
+        "subject": "histology",
+        "group": "A4",
+        "hall": "M-003",
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       },
       {
         "time": "11:30–1:00",
         "subject": "bacteriology",
-        "group": "A4",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
-      },
-      {
-        "time": "1:00–2:30",
-        "subject": "parasitology",
         "group": "B4",
         "hall": "M-002",
-        "teacher": "م.م. سمية ناظم محمد"
+        "teacher": "م.م. محمود ياسين مخلف"
       },
       {
-        "time": "1:00–2:30",
-        "subject": "bacteriology",
+        "time": "11:30–1:00",
+        "subject": "histology",
         "group": "B3",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       }
     ],
     "الثلاثاء": [
       {
         "time": "8:30–10:00",
-        "subject": "physiology",
+        "subject": "parasitology",
         "group": "A4",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-002",
+        "teacher": "م.م. سمية ناظم محمد"
       },
       {
         "time": "8:30–10:00",
         "subject": "histology",
         "group": "A3",
         "hall": "M-003",
-        "teacher": "م.م. بلال عبد المجيد"
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       },
       {
-        "time": "10:00–11:30",
-        "subject": "physiology",
+        "time": "8:30–10:00",
+        "subject": "parasitology",
         "group": "B4",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-002",
+        "teacher": "م.م. سمية ناظم محمد"
       },
       {
         "time": "10:00–11:30",
         "subject": "histology",
         "group": "B1",
         "hall": "M-003",
-        "teacher": "م.م. بلال عبد المجيد"
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       },
       {
-        "time": "11:30–1:00",
-        "subject": "physiology",
+        "time": "10:00–11:30",
+        "subject": "parasitology",
         "group": "A2",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-002",
+        "teacher": "م.م. سمية ناظم محمد"
       },
       {
-        "time": "11:30–1:00",
+        "time": "10:00–11:30",
         "subject": "histology",
         "group": "A1",
         "hall": "M-003",
-        "teacher": "م.م. بلال عبد المجيد"
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       },
       {
-        "time": "1:00–2:30",
-        "subject": "physiology",
+        "time": "11:30–1:00",
+        "subject": "parasitology",
         "group": "A1",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-002",
+        "teacher": "م.م. سمية ناظم محمد"
       },
       {
-        "time": "1:00–2:30",
+        "time": "11:30–1:00",
         "subject": "histology",
         "group": "B4",
         "hall": "M-003",
-        "teacher": "م.م. بلال عبد المجيد"
+        "teacher": "م.م. بالل عبد المجيد مخلف"
       }
     ],
     "الأربعاء": [
@@ -717,17 +769,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "8:30–10:00",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "B2",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "8:30–10:00",
-        "subject": "physiology",
+        "subject": "biochemistry",
         "group": "B3",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-104",
+        "teacher": "م.م. محمد هاشم محمد"
       },
       {
         "time": "10:00–11:30",
@@ -738,17 +790,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "10:00–11:30",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "B4",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "10:00–11:30",
-        "subject": "physiology",
+        "subject": "biochemistry",
         "group": "B2",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-104",
+        "teacher": "م.م. محمد هاشم محمد"
       },
       {
         "time": "11:30–1:00",
@@ -759,17 +811,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "11:30–1:00",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "A2",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "11:30–1:00",
-        "subject": "physiology",
+        "subject": "biochemistry",
         "group": "A1",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-104",
+        "teacher": "م.م. محمد هاشم محمد"
       },
       {
         "time": "1:00–2:30",
@@ -780,17 +832,17 @@ window.TIMETABLE_DATA = {
       },
       {
         "time": "1:00–2:30",
-        "subject": "bacteriology",
+        "subject": "physiology",
         "group": "A3",
-        "hall": "M-002",
-        "teacher": "م.م. محمود ياسين مخلف"
+        "hall": "M-003",
+        "teacher": "م.م. ايمان رعيد عزام"
       },
       {
         "time": "1:00–2:30",
-        "subject": "physiology",
+        "subject": "biochemistry",
         "group": "A4",
-        "hall": "M-003",
-        "teacher": "م.م. ايمان رعيد عزام"
+        "hall": "M-104",
+        "teacher": "م.م. محمد هاشم محمد"
       }
     ]
   }
@@ -798,7 +850,7 @@ window.TIMETABLE_DATA = {
 </script>
   <script>
 (() => {
-const DATA_VERSION='2026-10-01-final-v2';
+const DATA_VERSION='2026-10-02-professional-ar-v5';
 const savedVersion=localStorage.getItem('siteDataVersion');
 if(savedVersion!==DATA_VERSION){localStorage.setItem('siteData',JSON.stringify(window.TIMETABLE_DATA));localStorage.setItem('siteDataVersion',DATA_VERSION);}
 const D=window.TIMETABLE_DATA=JSON.parse(localStorage.getItem('siteData')||JSON.stringify(window.TIMETABLE_DATA));
@@ -814,95 +866,36 @@ function timeIndex(t){return order.indexOf(t);}
 function practicalFor(subgroup,day){return (D.practical[day]||[]).filter(x=>x.group===subgroup).map(x=>({...x,type:'practical'}));}
 function theoryFor(group,day){return D.theory.filter(x=>(x.group===group||x.group==='A&B')&&x.day===day).map(x=>({...x,type:'theory'}));}
 function combined(group,subgroup,day){return [...theoryFor(group,day),...practicalFor(subgroup,day)].sort((a,b)=>timeIndex(a.time)-timeIndex(b.time));}
+function renderSchedule(){
+  const list=combined(state.group,state.subgroup,state.day);
+  const el=$('#schedule');
+  if(!el) return;
+  el.innerHTML=list.length ? list.map(card).join('') : '<div class="empty">لا توجد محاضرات لهذا اليوم.</div>';
+}
+function checkReminders(){ return; }
+function goHome(){ state.group=null; state.subgroup=null; state.day='السبت'; show('welcomeView'); }
+function wireNavigation(){
+  const start=$('#startBtn');
+  if(start) start.addEventListener('click',()=>show('groupView'));
+  const home=$('#homeBtn');
+  if(home) home.addEventListener('click',goHome);
+  document.querySelectorAll('[data-back]').forEach(btn=>btn.addEventListener('click',()=>show(btn.dataset.back)));
+  const settings=$('#settingsBtn');
+  if(settings) settings.addEventListener('click',()=>{
+    const d=$('#reminderDialog');
+    if(d && typeof d.showModal==='function') d.showModal();
+  });
+}
 function renderGroups(){document.querySelectorAll('[data-group]').forEach(b=>b.onclick=()=>{state.group=b.dataset.group;$('#chosenGroupPill').textContent='Group '+state.group;$('#subgroupGrid').innerHTML=['1','2','3','4'].map(n=>`<button class="subgroup-card" data-sub="${state.group+n}">${state.group+n}</button>`).join('');document.querySelectorAll('[data-sub]').forEach(x=>x.onclick=()=>selectSub(x.dataset.sub));show('subgroupView');});}
 function selectSub(sub){state.subgroup=sub;state.day='السبت';$('#selectedSubgroupPill').textContent=sub;$('#selectedSubgroupTitle').textContent='جدول '+sub;renderDays();renderSchedule();checkReminders();show('dayView');}
 function renderDays(){$('#days').innerHTML=dayOrder.map(d=>`<button class="day-btn ${d===state.day?'active':''}" data-day="${d}" role="tab">${d}</button>`).join('');document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{state.day=b.dataset.day;renderDays();renderSchedule();checkReminders();});}
-function card(x){const s=subjectInfo(x.subject);const isTheory=x.type==='theory';const ar=s.ar||'';const en=s.en||'';let teacher=x.teacher||(!isTheory?s.practicalTeacher:'');let hall=x.hall||(!isTheory?s.lab:'');return `<div class="lecture"><div class="time-box">${x.time}</div><article class="lecture-card ${x.type}"><div class="lecture-head"><div><div class="lecture-title">${en}</div></div><span class="type">${isTheory?'نظري':'عملي'}</span></div><div class="meta">${x.group?`<span>${x.group}</span>`:''}${hall?`<span>المكان: ${hall}</span>`:''}${teacher?`<span>المدرس: ${teacher}</span>`:''}</div></article></div>`;}
-function renderSchedule(){const list=combined(state.group,state.subgroup,state.day);$('#schedule').innerHTML=list.length?list.map(card).join(''):`<div class="empty">لا توجد محاضرات مسجلة لهذا الكروب في هذا اليوم حسب ملف المصدر.</div>`;}
-$('#homeBtn').onclick=()=>show('welcomeView');
-$('#startBtn').onclick=()=>show('groupView');
-document.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>show(b.dataset.back));
-$('#adminNavBtn').onclick=()=>{show('adminView');$('#adminPanel').hidden=true;};
-$('#settingsBtn').onclick=()=>{const s=JSON.parse(localStorage.getItem('reminder')||'{}');$('#reminderEnabled').checked=!!s.enabled;$('#reminderMinutes').value=String(s.minutes||10);$('#reminderDialog').showModal();};
-$('#requestNotifyBtn').onclick=async()=>{if(!('Notification'in window)){$('#notifyMsg').textContent='المتصفح لا يدعم الإشعارات.';return;}const p=await Notification.requestPermission();$('#notifyMsg').textContent='حالة الإذن: '+p;};
-$('#saveReminderBtn').onclick=()=>{localStorage.setItem('reminder',JSON.stringify({enabled:$('#reminderEnabled').checked,minutes:Number($('#reminderMinutes').value)}));checkReminders();};
-function currentDay(){return ['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'][new Date().getDay()];}
-function startMinutes(time){const m=String(time).match(/(\\d+):(\\d+)\\s*[–-]/);return m?Number(m[1])*60+Number(m[2]):null;}
-function reminderItems(){if(!state.group)return [];const day=currentDay();return combined(state.group,state.subgroup,day).filter(x=>x.time&&startMinutes(x.time)!==null);}
-function checkReminders(){
-  const settings=JSON.parse(localStorage.getItem('reminder')||'{}');
-  if(!settings.enabled || !('Notification'in window) || Notification.permission!=='granted')return;
-  const now=new Date(), nowMin=now.getHours()*60+now.getMinutes(), before=Number(settings.minutes||10);
-  reminderItems().forEach(x=>{
-    const start=startMinutes(x.time);
-    if(start===null)return;
-    const diff=start-nowMin;
-    if(diff>=0 && diff<=before){
-      const key=[now.toISOString().slice(0,10),state.group,state.subgroup||'',currentDay(),x.time,x.subject,before].join('|');
-      if(localStorage.getItem('sentReminder')!==key){
-        const s=subjectInfo(x.subject);
-        new Notification('تذكير بالمحاضرة',{body:`بعد ${diff} دقيقة: ${s.en||x.subject} (${x.type==='theory'?'نظري':'عملي'})`});
-        localStorage.setItem('sentReminder',key);
-      }
-    }
-  });
-}
+function card(x){const s=subjectInfo(x.subject);const isTheory=x.type==='theory';const en=s.en||x.subject;const teacher=x.teacher||(!isTheory?s.practicalTeacher:'');const hall=x.hall||(!isTheory?s.lab:'');return `<div class="lecture"><div class="time-box"><b>${x.time}</b><small>${isTheory?'نظري':'عملي'}</small></div><article class="lecture-card ${x.type}"><div class="lecture-head"><div><div class="lecture-title">${en}</div></div><span class="type">${isTheory?'نظري':'عملي'}</span></div><div class="meta">${x.group?`<span>المجموعة ${x.group}</span>`:''}${hall?`<span>📍 ${hall}</span>`:''}${teacher?`<span>👤 ${teacher}</span>`:''}</div></article></div>`;}
 setInterval(checkReminders,20000);
-function getSiteSettings(){return JSON.parse(localStorage.getItem('siteSettings')||'{}');}
-function applySiteSettings(){
-  const s=getSiteSettings();
-  const title=s.title||'جدول المرحلة الثانية';
-  const eyebrow=s.eyebrow||'كلية التقنيات الصحية والطبية';
-  const subtitle=s.subtitle||'تقنيات المختبرات الطبية · 2026–2027';
-  const designer=s.designer||'مصطفى مهند حامد';
-  document.querySelector('.topbar h1').textContent=title;
-  document.querySelector('.topbar .eyebrow').textContent=eyebrow;
-  document.querySelector('.topbar p').textContent=subtitle;
-  $('#designerText').textContent=designer;
-  document.title=title;
-  if(s.color)document.documentElement.style.setProperty('--ink',s.color);
-  if(s.bg)document.documentElement.style.setProperty('--bg',s.bg);
-}
-function loadAdminFields(){
-  const s=getSiteSettings();
-  $('#siteTitle').value=s.title||'جدول المرحلة الثانية';
-  $('#siteEyebrow').value=s.eyebrow||'كلية التقنيات الصحية والطبية';
-  $('#siteSubtitle').value=s.subtitle||'تقنيات المختبرات الطبية · 2026–2027';
-  $('#siteDesigner').value=s.designer||'مصطفى مهند حامد';
-  $('#siteColor').value=s.color||'#102a43';
-  $('#siteBg').value=s.bg||'#f4f7fb';
-  $('#siteDataEditor').value=JSON.stringify(D,null,2);
-  $('#adminNote').value=localStorage.getItem('adminNote')||'';
-}
-$('#loginForm').onsubmit=e=>{e.preventDefault();if($('#adminUser').value==='mustafa2007'&&$('#adminPass').value==='20072007'){$('#adminPanel').hidden=false;$('#loginMsg').textContent='تم فتح لوحة الإدارة على هذا الجهاز.';loadAdminFields();}else $('#loginMsg').textContent='بيانات الدخول غير صحيحة.';};
-$('#saveSiteBtn').onclick=()=>{
-  const s={title:$('#siteTitle').value,eyebrow:$('#siteEyebrow').value,subtitle:$('#siteSubtitle').value,designer:$('#siteDesigner').value,color:$('#siteColor').value,bg:$('#siteBg').value};
-  localStorage.setItem('siteSettings',JSON.stringify(s));applySiteSettings();$('#saveMsg').textContent='تم حفظ معلومات الموقع.';
-};
-$('#saveDataBtn').onclick=()=>{
-  try{
-    const parsed=JSON.parse($('#siteDataEditor').value);
-    if(!parsed.days||!parsed.times||!parsed.subjects||!parsed.theory||!parsed.practical)throw new Error('البيانات الأساسية ناقصة');
-    localStorage.setItem('siteData',JSON.stringify(parsed));localStorage.setItem('siteDataVersion',DATA_VERSION);
-    Object.keys(D).forEach(k=>delete D[k]);Object.assign(D,parsed);
-    renderGroups();renderDays();renderSchedule();$('#saveMsg').textContent='تم حفظ وتطبيق بيانات الجدول.';
-  }catch(err){$('#saveMsg').textContent='خطأ في JSON: '+err.message;}
-};
-$('#saveNoteBtn').onclick=()=>{localStorage.setItem('adminNote',$('#adminNote').value);$('#saveMsg').textContent='تم حفظ الملاحظة محليًا.';};
-$('#exportDataBtn').onclick=()=>{
-  const backup={siteSettings:getSiteSettings(),siteData:D,adminNote:$('#adminNote').value};
-  const text=JSON.stringify(backup,null,2);
-  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(()=>$('#saveMsg').textContent='تم نسخ النسخة الاحتياطية.').catch(()=>$('#saveMsg').textContent=text);}
-  else $('#saveMsg').textContent=text;
-};
-$('#resetDataBtn').onclick=()=>{if(confirm('إرجاع الإعدادات المحلية والبيانات الأصلية؟')){localStorage.removeItem('siteData');localStorage.removeItem('siteSettings');localStorage.removeItem('adminNote');localStorage.removeItem('reminder');location.reload();}};
-let deferred;
-window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;$('#installBtn').hidden=false;});
-$('#installBtn').onclick=async()=>{if(deferred){deferred.prompt();await deferred.userChoice;deferred=null;$('#installBtn').hidden=true;}};
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
-applySiteSettings();
+document.title='جدول المرحلة الثانية | تقنيات المختبرات الطبية';
 renderGroups();
+wireNavigation();
 })();
 </script>
-</body>
-</html>
+
+
+</body></html>
